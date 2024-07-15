@@ -12,6 +12,10 @@ In the project directory, you can run:
 ```bash
   pip install flet
 ```
+- and
+```bash
+  flet run code.py
+```
 
 ## 🔨 Tools
 - **Flet**
