@@ -14,13 +14,6 @@ def main(page: ft.Page):
 
         main_image.update()
         options.update()
-        
-    def main_image(e):
-        main_image.width=400
-        main_image.height=400
-
-        main_image.update()
-
 
     product_images = ft.Container(
         col={'xs': 12, 'md': 6},
@@ -38,7 +31,7 @@ def main(page: ft.Page):
                         width=350,
                         height=500,
                         # fit=ft.ImageFit.CONTAIN, # Tratamento de imagem caso a imagem for menor
-                    ),
+                        ),
                     ]
                 ),
                 options := ft.Row(
@@ -236,7 +229,6 @@ def main(page: ft.Page):
         margin=ft.margin.all(30),
         shadow=ft.BoxShadow(blur_radius=300, color=ft.colors.CYAN),
         content=ft.ResponsiveRow(
-            alignment=ft.MainAxisAlignment.CENTER,
             columns=12,
             spacing=0,
             run_spacing=0,
@@ -246,7 +238,7 @@ def main(page: ft.Page):
             ]
         )
     )
-
+    
     page.add(layout)
 
 if __name__ == '__main__':
