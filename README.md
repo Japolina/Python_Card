@@ -1,5 +1,7 @@
 # Python_Card
 Aprendendo como utilizar Flet em Python 📚
+- Projeto feito em Python e Flet para criação de um card de uma venda de fones bluetooth.
+<img src="/card.png"/>
 
 # ♻️ Installation
 ```bash
